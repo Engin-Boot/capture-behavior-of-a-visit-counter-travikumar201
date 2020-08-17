@@ -14,4 +14,4 @@ Scenario: Alert when seating capacity is full
 
   When the count from sensor equals to the seating capacity of the room
   
-  Then I need to open up another room to accomodate the visitors
+  Then I need to accomodate the visitors in another room
