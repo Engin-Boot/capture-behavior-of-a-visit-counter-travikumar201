@@ -7,7 +7,7 @@ Scenario: Report visitor trends during a week of operation
 
   When the visitor count for each day is recorded accurately
 
-  Then vistor trend for the week is calculated
+  Then visitor trend for the week is calculated
 
 Scenario: Alert when seating capacity is full
 
@@ -15,4 +15,4 @@ Scenario: Alert when seating capacity is full
 
   When the count from sensor equals to the seating capacity of the room
   
-  Then accomodate the visitors in another room
+  Then accommodate the visitors in another room
