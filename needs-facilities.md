@@ -2,7 +2,8 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given that there is a sensor at the entry door and it increments by one when someone enters
+  Given that there is a sensor at the entry door and it
+  increments by one when someone enters
 
   When the visitor count for each day is recorded accurately
 
