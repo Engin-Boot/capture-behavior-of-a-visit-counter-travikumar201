@@ -2,11 +2,11 @@
 
 Scenario: Report visitor trends during a week of operation
 
-  Given that there is a sensor at the entry door that counts number of people
+  Given that there is a sensor at the entry door and it increments by one when someone enters
 
-  When a new visitor arrives, the count of sensor increases by one
-  
-  Then I can keep a count of daily vistors for the whole week
+  When the visitor count for each day is recorded accurately
+
+  Then the vistor trend during the week is easily calculated
 
 Scenario: Alert when seating capacity is full
 
@@ -14,4 +14,4 @@ Scenario: Alert when seating capacity is full
 
   When the count from sensor equals to the seating capacity of the room
   
-  Then I need to accomodate the visitors in another room
+  Then I need to accomodate the new visitors in another room
