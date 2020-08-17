@@ -8,8 +8,8 @@ that runs the visit-counter
 
   When the server restarts
 
-  Then manual visitor count kept by the person is added
-  to the visit-counter
+  Then add manual visitor count kept by the person into
+  the visit-counter
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
