@@ -7,7 +7,7 @@ Scenario: Report visitor trends during a week of operation
 
   When the visitor count for each day is recorded accurately
 
-  Then the vistor trend during the week is 
+  Then the vistor trend during the week is
   easily calculated
 
 Scenario: Alert when seating capacity is full
